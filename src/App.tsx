@@ -9,7 +9,7 @@ function App() {
   const [outputImage, setOutputImage] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = "http://127.0.0.1:8000"; // api plug-in
 
   useEffect(() => {
     fetch(`${API_BASE}/samples`)
